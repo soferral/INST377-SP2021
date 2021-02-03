@@ -2,4 +2,4 @@
 
 import navBar from './components/navbar.js'
 
-const menuButton = 
+const menuButton = null
