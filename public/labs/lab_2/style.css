@@ -14,18 +14,18 @@ body {
   width: 70%;
   min-width: 800px;
   margin: 0 auto;
-  background-color: #6091C3;
+  background-color: #043d75;
 }
 
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Audiowide', sans-serif;
   color: #2a2a2a;
 }
 
 p, input, li {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Audiowide', sans-serif;
   color: #2a2a2a;
 }
 
@@ -39,7 +39,7 @@ h1 {
 h2 {
   font-size: 5rem;
   text-align: center;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 h3 {
@@ -60,12 +60,17 @@ p, li {
 }
 
 body > * {
-  background-color: red;
+  background-color: rgb(0, 255, 170);
   padding: 1%;
 }
 
+img {
+  width: 20%;
+  height: auto;
+}
+
 .main, .header, nav, .article, .aside, .footer, section {
-  background-color: rgba(0,255,0,0.5);
+  background-color: rgba(0, 17, 255, 0.5);
   padding: 1%;
 }
 
