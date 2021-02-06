@@ -13,8 +13,8 @@ html {
 body {
   width: 70%;
   min-width: 800px;
-  margin: 0 auto;
-  background-color: #043d75;
+  margin: 20px auto;
+  background-color: #4399ee;
 }
 
 /* || typography */
@@ -34,34 +34,42 @@ h1 {
   text-align: center;
   text-shadow: 2px 2px 10px black;
   font-weight: 100;
+  padding: 5%;
+  border: 5% #164b01;
 }
 
 h2 {
   font-size: 5rem;
   text-align: center;
   font-weight: 900;
+  border: 5% #164b01;
 }
 
 h3 {
   font-size: 2.2rem;
+  border: 5% #164b01;
 }
 
 p, li {
   font-size: 1.6rem;
   line-height: 1.5;
+  border: 5% #164b01;
 }
 
 /* || header layout */
 
 .header {
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   display: flex;
   flex-flow: row wrap;
+  padding: 10%;
+  border: 5% #164b01;
 }
 
 body > * {
-  background-color: rgb(0, 255, 170);
-  padding: 1%;
+  background-color: rgb(21, 226, 31);
+  border: 5% #164b01;
+  
 }
 
 img {
@@ -71,12 +79,13 @@ img {
 
 .main, .header, nav, .article, .aside, .footer, section {
   background-color: rgba(0, 17, 255, 0.5);
-  padding: 1%;
+  padding: 5%;
 }
 
 h1 {
   flex: 5;
   text-transform: uppercase;
+  border: 5% #164b01;
 }
 
 .header img {
